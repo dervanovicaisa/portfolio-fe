@@ -1,9 +1,9 @@
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary p-4">
+    <nav className="navbar navbar-expand-lg bg-body-light p-4">
       <div className="container-fluid">
-        <a className="navbar-brand roboto-bold fs-4 font-cursive" href="#">
-          Aisa Dervanovic
+        <a className="navbar-brand ibm-plex-serif-bold" href="#">
+          Software Engineer
         </a>
         <button
           className="navbar-toggler"

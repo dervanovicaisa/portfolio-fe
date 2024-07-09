@@ -1,0 +1,17 @@
+.card-box {
+  width: 49%;
+  padding: 0px 10px;
+}
+.card-box .card {
+  border: unset;
+  background-color: var(--bs-bg-dark);
+  color: var(--bs-gray-100);
+}
+.card-box .card .card-body {
+  padding: 40px 0px !important;
+  line-height: 2;
+  text-align: justify;
+}
+.card-box .card small {
+  color: var(--bs-gray-600) !important;
+}
