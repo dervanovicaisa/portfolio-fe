@@ -7,7 +7,7 @@ import GirlImage from "./../public/girl.jpg";
 import CardsImage from "./../public/cards.png";
 import FlayerImage from "./../public/flajer.png";
 import RotationFormImage from "./../public/rotationForm.png";
-import PeopleImage from "./../public/People.webp";
+import PeopleImage from "./../public/me.png";
 
 export {
   HarizmaImage,

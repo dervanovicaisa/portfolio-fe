@@ -15,3 +15,12 @@
 .card-box .card small {
   color: var(--bs-gray-600) !important;
 }
+.text-justify {
+  text-align: justify !important;
+}
+.text-indigo {
+  color: var(--bs-indigo) !important;
+}
+.text-primary-subtle {
+  color: var(--bs-primary-border-subtle) !important;
+}

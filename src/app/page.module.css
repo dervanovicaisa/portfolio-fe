@@ -1,15 +1,6 @@
 .main {
   color: black;
 }
-.portfolioImage {
-  background: url("../../public/People.webp") no-repeat;
-  height: 86.7vh;
-  background-position-x: left;
-  background-position-y: center;
-}
-.intro {
-  font-size: 2.9em;
-}
 .colors {
   position: absolute;
   bottom: 15px;

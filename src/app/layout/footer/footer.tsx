@@ -10,12 +10,15 @@ function Footer() {
           Follow me via:{" "}
           <a
             href="https://www.linkedin.com/in/aisadervanovic/"
-            className="text-dark"
+            className="text-dark text-decoration-underline text-indigo"
           >
             LinkedIn
           </a>
           ,
-          <a href="https://github.com/dervanovicaisa" className="text-dark">
+          <a
+            href="https://github.com/dervanovicaisa"
+            className="text-dark text-decoration-underline text-indigo"
+          >
             {" "}
             GitHub
           </a>
