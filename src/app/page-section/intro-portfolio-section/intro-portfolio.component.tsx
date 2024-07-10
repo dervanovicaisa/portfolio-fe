@@ -25,7 +25,7 @@ function IntroPortfolio() {
             Here are quick highlights of what I've been up to lately:
           </p>
         </div>
-        <div className="d-flex flex-wrap gap-4">
+        <div className={"d-flex flex-wrap gap-4 " + styles.boxGrid}>
           <div className="card-box">
             <div className="card">
               <img

@@ -1,3 +1,17 @@
 .btnViewFullbtn-view-full:hover {
   color: var(--btn-view-full);
 }
+@keyframes fadeInColor {
+  0% {
+    opacity: 0;
+    color: lightgray;
+  }
+  100% {
+    opacity: 1;
+    color: black;
+  }
+}
+
+.textAnimation {
+  animation: fadeInColor 1s ease-out; /* Use fadeInColor animation, 1 second duration */
+}

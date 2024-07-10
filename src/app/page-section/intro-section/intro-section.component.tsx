@@ -12,26 +12,30 @@ function IntroSection() {
           />
         </div>
         <div className="col">
-          <div className="ibm-plex-serif-regular w-75 m-auto fs-4">
-            <p className="ibm-plex-serif-bold fs-2">
+          <div
+            className={
+              "ibm-plex-serif-regular w-75 m-auto fs-4 " + styles.textAnimation
+            }
+          >
+            <p className={"ibm-plex-serif-bold fs-2 "}>
               I'am a front-end developer with a specialization in software
               engineering.
             </p>
             <br />
-            <p className="text-justify">
+            <p className={"text-justify "}>
               Like an artist carefully selecting colors and brushstrokes, I am
               passionate about creating UI/UX designs that are simple,
               accessible, and visually appealing. I often use pastel or{" "}
               light-specific colors , crafting digital landscapes that captivate
               and soothe users.
             </p>
-            <p className="text-justify">
+            <p className={"text-justify "}>
               My goal is to make each interface a masterpiece, functional and
               bug-free, providing a seamless user experience akin to enjoying a
               perfectly executed piece of art.
             </p>
             <br />
-            <div className="d-flex fs-5">
+            <div className={"d-flex fs-5 "}>
               <a
                 href="https://buymeacoffee.com/aisadf"
                 className="text-decoration-underline text-indigo"
