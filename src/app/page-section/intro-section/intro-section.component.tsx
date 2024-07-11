@@ -4,20 +4,20 @@ function IntroSection() {
   return (
     <section>
       <div className="row align-items-center justify-content-center px-4">
-        <div className={`col col-lg-5 ${styles.portfolioImage} text-center`}>
+        <div className={`col col-lg-5 ${styles.portfolioImage} text-end`}>
           <img
             src={PeopleImage.src}
-            className="w-auto"
+            className="w-100 text-end"
             alt="girl with 'i am fine day' quote"
           />
         </div>
-        <div className="col">
+        <div className="col col-lg-6 pb-3">
           <div
             className={
-              "ibm-plex-serif-regular w-75 m-auto fs-4 " + styles.textAnimation
+              "ibm-plex-serif-regular m-auto fs-4 " + styles.textAnimation
             }
           >
-            <p className={"ibm-plex-serif-bold fs-2 "}>
+            <p className={"ibm-plex-serif-bold fs-1"}>
               I'am a front-end developer with a specialization in software
               engineering.
             </p>
@@ -40,14 +40,14 @@ function IntroSection() {
                 href="https://buymeacoffee.com/aisadf"
                 className="text-decoration-underline text-indigo"
               >
-                Buy me a coffee
+                Buy Me a Coffee
               </a>
               <i className="bi bi-dot"></i>
               <a
-                href="/portfolio"
+                href="/about"
                 className="text-decoration-underline text-indigo"
               >
-                Learn about my journey
+                Meet me
               </a>
             </div>
           </div>

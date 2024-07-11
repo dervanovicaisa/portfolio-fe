@@ -1,26 +1,20 @@
 function Footer() {
   return (
-    <footer className="bg-light text-dark ibm-plex-serif-regular py-4 px-5">
+    <footer className="bg-white text-dark ibm-plex-serif-regular py-3 px-5">
       <div className="w-50 m-auto lh-2">
         <p className="pb-0 mb-0 text-center text-monospace">
-          Website designed and built with love by{" "}
-          <span className="text-decoration-underline">Aisa Dervanovic </span>
-        </p>
-        <p className="pb-0 mb-0 text-center text-monospace">
+          Website designed and built with &hearts; by <b>Aisa Dervanovic. </b>
           Follow me via:{" "}
           <a
             href="https://www.linkedin.com/in/aisadervanovic/"
-            className="text-dark text-decoration-underline text-indigo"
+            className="text-indigo"
           >
-            LinkedIn
+            LinkedIn <i className="bi bi-linkedin"></i>
           </a>
           ,
-          <a
-            href="https://github.com/dervanovicaisa"
-            className="text-dark text-decoration-underline text-indigo"
-          >
+          <a href="https://github.com/dervanovicaisa" className="text-indigo">
             {" "}
-            GitHub
+            GitHub <i className="bi bi-github"></i>
           </a>
           .
         </p>

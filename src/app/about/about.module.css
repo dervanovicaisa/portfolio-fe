@@ -1,0 +1,95 @@
+.aboutBgImage {
+  background: url("./../../../public/Designer1.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bgAboutInner {
+  background-color: #dbdbdbab;
+}
+.timelineDate {
+  position: relative;
+  z-index: 2;
+  font-size: 1em;
+}
+
+.timelineDate::before {
+  background-color: #7daaed;
+  border: 2px solid #c3eaff;
+  border-radius: 100%;
+  content: "";
+  width: 16px;
+  height: 16px;
+  left: -40px;
+  position: absolute;
+  top: 4px;
+  box-sizing: border-box;
+}
+
+.timelineEvent {
+  position: relative;
+}
+
+.timelineEvent:not(:last-child) {
+  padding-bottom: 24px;
+}
+.timelineEvent:not(:last-child):before {
+  content: "";
+  width: 2px;
+  background: linear-gradient(0deg, #7daaed 50%, transparent 50%),
+    linear-gradient(0deg, #7daaed 50%, transparent 50%);
+  background-repeat: repeat-y, repeat-y;
+  background-size: 4px 15px, 4px 15px;
+  background-position: 0px 100px, 200px 0px;
+  position: absolute;
+  top: 4px;
+  bottom: -4px;
+  left: -33px;
+  -webkit-animation: movingBorder 4s infinite linear;
+  -moz-animation: movingBorder 4s infinite linear;
+  -o-animation: movingBorder 4s infinite linear;
+  animation: movingBorder 4s infinite linear;
+}
+
+@-webkit-keyframes movingBorder {
+  0% {
+    background-position: 0px 0px, 216px 150px;
+  }
+
+  100% {
+    background-position: 0px 150px, 216px 0px;
+  }
+}
+
+@-moz-keyframes movingBorder {
+  0% {
+    background-position: 0px 0px, 216px 150px;
+  }
+
+  100% {
+    background-position: 0px 150px, 216px 0px;
+  }
+}
+
+@-o-keyframes movingBorder {
+  0% {
+    background-position: 0px 0px, 216px 150px;
+  }
+
+  100% {
+    background-position: 0px 150px, 216px 0px;
+  }
+}
+
+@keyframes movingBorder {
+  0% {
+    background-position: 0px 0px, 216px 150px;
+  }
+
+  100% {
+    background-position: 0px 150px, 216px 0px;
+  }
+}
+#biography {
+  /* background: #ffffffeb; */
+}

@@ -11,8 +11,14 @@ function ContactSection() {
               <li>Amateur photographer</li>
               <li>Amateur potter</li>
               <li>
-                Filmophile; I write about movies and tv shows that have made
-                impession on me
+                Filmophile; I{" "}
+                <a
+                  href="https://ehereal-echoes.blogspot.com/"
+                  className="text-primary-subtle text-decoration-underline"
+                >
+                  write
+                </a>{" "}
+                about movies and tv shows that have made impression on me
               </li>
             </ul>
           </div>
@@ -32,7 +38,7 @@ function ContactSection() {
               </a>
             </p>
             <ul className="pt-3">
-              <li>If you want a future bussines with me</li>
+              <li>If you want me to be a part of your project; freelancing,</li>
               <li>If you are interested to hire me, or</li>
               <li>Just wanna say hi</li>
             </ul>

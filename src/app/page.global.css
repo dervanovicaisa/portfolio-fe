@@ -24,3 +24,15 @@
 .text-primary-subtle {
   color: var(--bs-primary-border-subtle) !important;
 }
+.btn-bg-primary-subtle {
+  background-color: var(--bs-primary-border-subtle) !important;
+}
+.btn-bg-primary-subtle:hover {
+  opacity: 0.9;
+}
+.w-webkit-fill-available {
+  width: -webkit-fill-available !important;
+}
+.bg-glow {
+  background: var(--secondary-glow);
+}

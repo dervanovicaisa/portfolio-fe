@@ -2,7 +2,7 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg bg-white p-4">
       <div className="container-fluid">
-        <a className="navbar-brand ibm-plex-serif-bold fs-2" href="#">
+        <a className="navbar-brand ibm-plex-serif-bold fs-2" href="/">
           Portfolio
         </a>
         <button

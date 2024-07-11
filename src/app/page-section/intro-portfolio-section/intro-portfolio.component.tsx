@@ -96,7 +96,7 @@ function IntroPortfolio() {
             "btn btn-outline-light p-3 text-primary-subtle " +
             styles.btnViewFull
           }
-          href="#"
+          href="/portfolio"
           role="button"
         >
           View full portfolio <i className="bi bi-arrow-right"></i>
