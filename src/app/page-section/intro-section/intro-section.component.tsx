@@ -15,6 +15,7 @@ function IntroSection() {
             layout="responsive"
             width={500}
             height={300}
+            priority
           />
         </div>
         <div className="col col-lg-6 col-md-10 col-sm-10 col-xs-10 pb-3 pb-sm-5 text-md-justify text-sm-justify">

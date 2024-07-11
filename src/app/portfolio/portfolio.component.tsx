@@ -38,6 +38,7 @@ function Portfolio() {
                   width={500}
                   height={300}
                   layout="responsive"
+                  priority
                 />
                 <div className="card-body">
                   <b className="ibm-plex-serif-regular d-block fs-2 text-black">
@@ -76,6 +77,7 @@ function Portfolio() {
                   width={500}
                   height={300}
                   layout="responsive"
+                  priority
                 />
                 <div className="card-body">
                   <b className="ibm-plex-serif-regular d-block fs-3 text-black">
@@ -120,6 +122,7 @@ function Portfolio() {
                   width={500}
                   height={300}
                   alt="flp"
+                  priority
                 />
                 <div className="card-body">
                   <b className="ibm-plex-serif-regular d-block fs-3 text-black">
@@ -158,6 +161,7 @@ function Portfolio() {
                   width={500}
                   height={300}
                   layout="responsive"
+                  priority
                 />
                 <div className="card-body">
                   <b className="ibm-plex-serif-regular d-block fs-3 text-black">
