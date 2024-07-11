@@ -5,11 +5,8 @@ import Link from "next/link";
 function About() {
   return (
     <div className={styles.aboutBgImage + " text-dark"}>
-      <div className={"m-auto " + styles.bgAboutInner}>
-        <br />
-        <br />
-        <br />
-        <div className="w-50 m-auto">
+      <div className={"m-auto row " + styles.bgAboutInner}>
+        <div className="m-auto col-lg-6 col-md-10 col-sm-11 col-xs-11 py-4">
           <div>
             <p className="ibm-plex-serif-bold fs-1">
               Software Engineer born in Montenegro, Podgorica
@@ -413,71 +410,69 @@ function About() {
             </div>
           </div>
         </div>
-        <br />
-        <br />
-        <div
-          id={styles.biography}
-          className="row py-2 px-5 bg-secondary text-white justify-content-center"
-        >
-          <div className="col col-lg-7 p-5 text-justify">
-            <div className="lh-2">
-              <b className="ibm-plex-serif-bold d-block fs-1 pb-3">Biography</b>
+        <div className="col col-12 py-4">
+          <div
+            id={styles.biography}
+            className="row py-2  px-lg-5 px-md-4 px-sm-3 px-xs-2 bg-secondary text-white justify-content-center"
+          >
+            <div className="col col-lg-7 col-md-10 col-sm-11 p-lg-5 p-md-4 p-sm-3 p-xs-2 text-justify">
+              <div className="lh-2">
+                <b className="ibm-plex-serif-bold d-block fs-1 pb-3">
+                  Biography
+                </b>
 
-              <p className="mb-0 fs-5 ibm-plex-serif-regular">
-                I'm a frontend developer, specializing in creating intuitive
-                user interfaces and enhancing user experiences. I've
-                collaborated on projects that range from startups to large
-                corporations, focusing on delivering impactful designs and
-                functionalities. My interest in frontend development began
-                early, sparked by a fascination with interactive technologies.
-                Outside of work, I enjoy writing, photography, pottery,
-                swimming, and designing — especially selecting designs before
-                diving into coding them.
-              </p>
-              <p className="fs-5 ibm-plex-serif-regular">
-                You can explore my work at{" "}
-                <a
-                  href="/"
-                  className="text-decoration-underline text-primary-subtle"
-                >
-                  www.justanotheronesoftwareengineerr.com
-                </a>
-              </p>
+                <p className="mb-0 fs-5 ibm-plex-serif-regular">
+                  I'm a frontend developer, specializing in creating intuitive
+                  user interfaces and enhancing user experiences. I've
+                  collaborated on projects that range from startups to large
+                  corporations, focusing on delivering impactful designs and
+                  functionalities. My interest in frontend development began
+                  early, sparked by a fascination with interactive technologies.
+                  Outside of work, I enjoy writing, photography, pottery,
+                  swimming, and designing — especially selecting designs before
+                  diving into coding them.
+                </p>
+                <p className="fs-5 ibm-plex-serif-regular">
+                  You can explore my work at{" "}
+                  <a
+                    href="/"
+                    className="text-decoration-underline text-primary-subtle"
+                  >
+                    www.justanotheronesoftwareengineerr.com
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-
-        <br />
-        <br />
-        <br />
-        <br />
-
-        <div className="mx-4">
-          <p className="fs-1">Gallery</p>
-          <div className="row py-2 align-items-center justify-content-around">
-            <div className="col">
-              <img
-                src={Me1Image.src}
-                className="w-100 rounded"
-                alt="Budva, Montenegro"
-              />
-            </div>
-            <div className="col">
-              <img src={Me2Image.src} className="w-100 rounded" alt="Private" />
-            </div>
-            <div className="col">
-              <img
-                src={Me3Image.src}
-                className="w-100 rounded"
-                alt="Rome, Italy"
-              />
+        <div className="col col-12 pt-3 pb-5">
+          <div className="mx-lg-4 mx-md-3 mx-sm-3 mx-xs-2">
+            <p className="fs-1">Gallery</p>
+            <div className="row py-2 align-items-center justify-content-around">
+              <div className="col">
+                <img
+                  src={Me1Image.src}
+                  className="w-100 rounded"
+                  alt="Budva, Montenegro"
+                />
+              </div>
+              <div className="col">
+                <img
+                  src={Me2Image.src}
+                  className="w-100 rounded"
+                  alt="Private"
+                />
+              </div>
+              <div className="col">
+                <img
+                  src={Me3Image.src}
+                  className="w-100 rounded"
+                  alt="Rome, Italy"
+                />
+              </div>
             </div>
           </div>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
       </div>
     </div>
   );

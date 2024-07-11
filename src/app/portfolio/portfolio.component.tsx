@@ -9,7 +9,7 @@ import styles from "./portfolio.module.css";
 function Portfolio() {
   return (
     <div className="text-black row justify-content-center bg-glow">
-      <div className="col col-lg-7">
+      <div className="col pt-4 col-lg-7 col-md-9 col-sm-11">
         <div>
           <p className="ibm-plex-serif-regular fs-1">
             Let me help you bring your vision to life
@@ -27,8 +27,8 @@ function Portfolio() {
           <p className="ibm-plex-serif-light fs-5 pb-2">
             Here are quick highlights of what I've been up to lately:
           </p>
-          <div className={"row gap-4 " + styles.boxGrid}>
-            <div className="card-box col">
+          <div className={"row " + styles.boxGrid}>
+            <div className="card-box col col-lg-6 col-md-12 col-sm-12">
               <div className="card">
                 <img
                   src={HarizmaImage.src}
@@ -63,7 +63,7 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-            <div className="card-box col">
+            <div className="card-box col col-lg-6 col-md-12 col-sm-12">
               <div className="card">
                 <img
                   src={YogisImage.src}
@@ -72,7 +72,14 @@ function Portfolio() {
                 />
                 <div className="card-body">
                   <b className="ibm-plex-serif-regular d-block fs-3 text-black">
-                    Yogis
+                    <a
+                      href="https://yogis-design.netlify.app/"
+                      target="_blank"
+                      className="text-decoration-underline"
+                    >
+                      {" "}
+                      Yogis
+                    </a>
                   </b>
                   <small className="text-muted text-black ibm-plex-serif-light">
                     Developed in 2024
@@ -96,13 +103,19 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className={"row gap-4 " + styles.boxGrid}>
-            <div className="card-box col">
+          <div className={"row " + styles.boxGrid}>
+            <div className="card-box col col-lg-6 col-md-12 col-sm-12">
               <div className="card">
                 <img src={FLPImage.src} className="card-img-top" alt="flp" />
                 <div className="card-body">
                   <b className="ibm-plex-serif-regular d-block fs-3 text-black">
-                    Forever Living Products
+                    <a
+                      href="https://aloevera-forever-living.netlify.app/#home"
+                      target="_blank"
+                      className="text-decoration-underline"
+                    >
+                      Forever Living Products
+                    </a>{" "}
                   </b>
                   <small className="text-muted ibm-plex-serif-light">
                     Developed in 2023
@@ -122,7 +135,7 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-            <div className="card-box col">
+            <div className="card-box col col-lg-6 col-md-12 col-sm-12">
               <div className="card">
                 <img
                   src={CleaningServiceImage.src}
@@ -131,7 +144,13 @@ function Portfolio() {
                 />
                 <div className="card-body">
                   <b className="ibm-plex-serif-regular d-block fs-3 text-black">
-                    M&M cleaning services
+                    <a
+                      href="https://mandmhadzajlicreinigund.netlify.app/#Heim"
+                      target="_blank"
+                      className="text-decoration-underline"
+                    >
+                      M&M cleaning services
+                    </a>{" "}
                   </b>
                   <small className="text-muted text-black ibm-plex-serif-light">
                     Developed in 2023

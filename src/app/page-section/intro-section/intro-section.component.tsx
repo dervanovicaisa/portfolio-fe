@@ -4,20 +4,26 @@ function IntroSection() {
   return (
     <section>
       <div className="row align-items-center justify-content-center px-4">
-        <div className={`col col-lg-5 ${styles.portfolioImage} text-end`}>
+        <div
+          className={`col col-lg-5 col-md-3 col-sm-3 col-xs-3 ${styles.portfolioImage} text-end`}
+        >
           <img
             src={PeopleImage.src}
             className="w-100 text-end"
             alt="girl with 'i am fine day' quote"
           />
         </div>
-        <div className="col col-lg-6 pb-3">
+        <div className="col col-lg-6 col-md-10 col-sm-10 col-xs-10 pb-3 pb-sm-5 text-md-justify text-sm-justify">
           <div
             className={
               "ibm-plex-serif-regular m-auto fs-4 " + styles.textAnimation
             }
           >
-            <p className={"ibm-plex-serif-bold fs-1"}>
+            <p
+              className={
+                "ibm-plex-serif-bold text-lg-start text-sm-center fs-1"
+              }
+            >
               I'am a front-end developer with a specialization in software
               engineering.
             </p>

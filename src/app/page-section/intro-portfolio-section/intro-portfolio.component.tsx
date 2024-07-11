@@ -7,7 +7,7 @@ function IntroPortfolio() {
         <b className="ibm-plex-serif-regular fs-1 d-block">
           I bring designs to life through code
         </b>
-        <p className="ibm-plex-serif-light">
+        <p className="ibm-plex-serif-light pt-sm-3 text-sm-justify text-xs-justify">
           I bring designs to life through code, transforming static visual
           concepts into dynamic, interactive experiences. As a front-end
           developer, I bridge the gap between design and functionality,
@@ -25,8 +25,8 @@ function IntroPortfolio() {
             Here are quick highlights of what I've been up to lately:
           </p>
         </div>
-        <div className={"d-flex flex-wrap gap-4 " + styles.boxGrid}>
-          <div className="card-box">
+        <div className={"row " + styles.boxGrid}>
+          <div className="col col-lg-6 col-md-12 col-sm-12 col-xs-12 card-box">
             <div className="card">
               <img
                 src={HarizmaImage.src}
@@ -58,7 +58,7 @@ function IntroPortfolio() {
               </div>
             </div>
           </div>
-          <div className="card-box">
+          <div className="col col-lg-6 col-md-12 col-sm-12 col-xs-12 card-box">
             <div className="card">
               <img
                 src={YogisImage.src}
