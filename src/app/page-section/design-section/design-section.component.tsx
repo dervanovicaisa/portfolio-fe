@@ -1,5 +1,6 @@
 import { CardsImage, FlayerImage, RotationFormImage } from "@/export-img-url";
 import styles from "./design-section.module.css";
+import Image from "next/image";
 function DesignSection() {
   return (
     <section className="row gap-4 px-5 flex-column py-5 m-auto bg-light text-dark fs-5">
@@ -26,10 +27,13 @@ function DesignSection() {
             <div className="row justify-content-between">
               <div className="card-box col col-lg-6 col-md-12 col-sm-12">
                 <div className="card">
-                  <img
+                  <Image
                     src={CardsImage.src}
                     className="card-img-top"
                     alt="card"
+                    layout="responsive"
+                    width={500}
+                    height={300}
                   />
                 </div>
               </div>
@@ -76,10 +80,13 @@ function DesignSection() {
               </div>
               <div className="card-box col col-lg-6 col-md-12 col-sm-12">
                 <div className="card">
-                  <img
+                  <Image
                     src={FlayerImage.src}
                     className="card-img-top"
                     alt="flyer"
+                    layout="responsive"
+                    width={500}
+                    height={300}
                   />
                 </div>
               </div>
@@ -89,10 +96,13 @@ function DesignSection() {
             <div className="row justify-content-between">
               <div className="card-box col col-lg-6 col-md-12 col-sm-12">
                 <div className="card">
-                  <img
+                  <Image
                     src={RotationFormImage.src}
                     className="card-img-top"
                     alt="rotation-form"
+                    layout="responsive"
+                    width={500}
+                    height={300}
                   />
                 </div>
               </div>

@@ -2,7 +2,6 @@ import HarizmaImage from "./../public/harizma.png";
 import FLPImage from "./../public/flp.png";
 import CleaningServiceImage from "./../public/cleaningService.png";
 import YogisImage from "./../public/yogis.png";
-import GirlImage from "./../public/girl.jpg";
 import CardsImage from "./../public/cards.png";
 import FlayerImage from "./../public/flajer.png";
 import RotationFormImage from "./../public/rotationForm.png";
@@ -15,7 +14,6 @@ export {
   FLPImage,
   CleaningServiceImage,
   YogisImage,
-  GirlImage,
   CardsImage,
   FlayerImage,
   RotationFormImage,

@@ -1,5 +1,6 @@
 import { YogisImage, HarizmaImage } from "@/export-img-url";
 import styles from "./intro-portfolio.module.css";
+import Image from "next/image";
 function IntroPortfolio() {
   return (
     <section className="px-5 pb-5 m-auto bg-black text-light fs-5">
@@ -28,10 +29,13 @@ function IntroPortfolio() {
         <div className={"row " + styles.boxGrid}>
           <div className="col col-lg-6 col-md-12 col-sm-12 col-xs-12 card-box">
             <div className="card">
-              <img
+              <Image
                 src={HarizmaImage.src}
                 className="card-img-top"
                 alt="harizma"
+                layout="responsive"
+                width={500}
+                height={300}
               />
               <div className="card-body">
                 <b className="ibm-plex-serif-regular d-block fs-2">Harizma</b>
@@ -60,10 +64,13 @@ function IntroPortfolio() {
           </div>
           <div className="col col-lg-6 col-md-12 col-sm-12 col-xs-12 card-box">
             <div className="card">
-              <img
+              <Image
                 src={YogisImage.src}
                 className="card-img-top"
                 alt="harizma"
+                layout="responsive"
+                width={500}
+                height={300}
               />
               <div className="card-body">
                 <b className="ibm-plex-serif-regular d-block fs-2">Yogis</b>

@@ -1,6 +1,7 @@
 import { Me1Image, Me2Image, Me3Image } from "@/export-img-url";
 import styles from "./about.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 function About() {
   return (
@@ -450,24 +451,33 @@ function About() {
             <p className="fs-1">Gallery</p>
             <div className="row py-2 align-items-center justify-content-around">
               <div className="col">
-                <img
+                <Image
                   src={Me1Image.src}
                   className="w-100 rounded"
                   alt="Budva, Montenegro"
+                  layout="responsive"
+                  width={500}
+                  height={300}
                 />
               </div>
               <div className="col">
-                <img
+                <Image
                   src={Me2Image.src}
                   className="w-100 rounded"
                   alt="Private"
+                  layout="responsive"
+                  width={500}
+                  height={300}
                 />
               </div>
               <div className="col">
-                <img
+                <Image
                   src={Me3Image.src}
                   className="w-100 rounded"
                   alt="Rome, Italy"
+                  layout="responsive"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>

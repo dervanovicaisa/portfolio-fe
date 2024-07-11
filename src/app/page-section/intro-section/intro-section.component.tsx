@@ -1,5 +1,6 @@
 import styles from "./intro-section.module.css";
 import { PeopleImage } from "./../../../export-img-url";
+import Image from "next/image";
 function IntroSection() {
   return (
     <section>
@@ -7,10 +8,13 @@ function IntroSection() {
         <div
           className={`col col-lg-5 col-md-3 col-sm-3 col-xs-3 ${styles.portfolioImage} text-end`}
         >
-          <img
+          <Image
             src={PeopleImage.src}
             className="w-100 text-end"
             alt="girl with 'i am fine day' quote"
+            layout="responsive"
+            width={500}
+            height={300}
           />
         </div>
         <div className="col col-lg-6 col-md-10 col-sm-10 col-xs-10 pb-3 pb-sm-5 text-md-justify text-sm-justify">

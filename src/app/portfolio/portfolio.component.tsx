@@ -5,6 +5,7 @@ import {
   YogisImage,
 } from "@/export-img-url";
 import styles from "./portfolio.module.css";
+import Image from "next/image";
 
 function Portfolio() {
   return (
@@ -30,10 +31,13 @@ function Portfolio() {
           <div className={"row " + styles.boxGrid}>
             <div className="card-box col col-lg-6 col-md-12 col-sm-12">
               <div className="card">
-                <img
+                <Image
                   src={HarizmaImage.src}
                   className="card-img-top"
                   alt="harizma"
+                  width={500}
+                  height={300}
+                  layout="responsive"
                 />
                 <div className="card-body">
                   <b className="ibm-plex-serif-regular d-block fs-2 text-black">
@@ -65,10 +69,13 @@ function Portfolio() {
             </div>
             <div className="card-box col col-lg-6 col-md-12 col-sm-12">
               <div className="card">
-                <img
+                <Image
                   src={YogisImage.src}
                   className="card-img-top"
                   alt="yogis"
+                  width={500}
+                  height={300}
+                  layout="responsive"
                 />
                 <div className="card-body">
                   <b className="ibm-plex-serif-regular d-block fs-3 text-black">
@@ -106,7 +113,14 @@ function Portfolio() {
           <div className={"row " + styles.boxGrid}>
             <div className="card-box col col-lg-6 col-md-12 col-sm-12">
               <div className="card">
-                <img src={FLPImage.src} className="card-img-top" alt="flp" />
+                <Image
+                  src={FLPImage.src}
+                  layout="responsive"
+                  className="card-img-top"
+                  width={500}
+                  height={300}
+                  alt="flp"
+                />
                 <div className="card-body">
                   <b className="ibm-plex-serif-regular d-block fs-3 text-black">
                     <a
@@ -137,10 +151,13 @@ function Portfolio() {
             </div>
             <div className="card-box col col-lg-6 col-md-12 col-sm-12">
               <div className="card">
-                <img
+                <Image
                   src={CleaningServiceImage.src}
                   className="card-img-top"
                   alt="cleaning services"
+                  width={500}
+                  height={300}
+                  layout="responsive"
                 />
                 <div className="card-body">
                   <b className="ibm-plex-serif-regular d-block fs-3 text-black">
