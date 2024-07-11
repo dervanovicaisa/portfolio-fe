@@ -26,7 +26,7 @@ function Portfolio() {
         <div className="py-4 lh-2">
           <p className="ibm-plex-serif-regular fs-2">Recent work</p>
           <p className="ibm-plex-serif-light fs-5 pb-2">
-            Here are quick highlights of what I've been up to lately:
+            Here are quick highlights of what I&apos;ve been up to lately:
           </p>
           <div className={"row " + styles.boxGrid}>
             <div className="card-box col col-lg-6 col-md-12 col-sm-12">
@@ -142,7 +142,7 @@ function Portfolio() {
                     products to a shopping cart; enabling users to send their
                     cart contents directly to an email address. All actions
                     should be possible without requiring user registration. The
-                    website's primary purpose is to list all products and
+                    website&apos;s primary purpose is to list all products and
                     facilitate communication with customers, allowing them to
                     create and send a product list to their employer via email.
                   </p>

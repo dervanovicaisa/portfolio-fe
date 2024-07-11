@@ -16,7 +16,8 @@ function About() {
               I grew up fixing technological issues for others on phones and
               laptops, from simple matters to more complex ones, all while being
               a fan of games and science fiction. There has always been a
-              passion for it. I like to solve problems — that's just who I am.
+              passion for it. I like to solve problems — that&apos;s just who I
+              am.
             </p>
           </div>
           <br />
@@ -37,7 +38,7 @@ function About() {
           <br />
           <div>
             <p className="ibm-plex-serif-bold fs-1">
-              My journey has only just begun, but it's already fascinating
+              My journey has only just begun, but it&apos;s already fascinating
             </p>
             <br />
             <br />
@@ -78,11 +79,11 @@ function About() {
                     </span>
                   </div>
                   <p>
-                    From my Bachelor's degree at the University Mediterranean in
-                    Montenegro, Podgorica, I gained a solid foundation in my
-                    field of study, critical thinking skills, practical research
-                    abilities, effective communication skills, and the ability
-                    to work collaboratively in teams.
+                    From my Bachelor&apos;s degree at the University
+                    Mediterranean in Montenegro, Podgorica, I gained a solid
+                    foundation in my field of study, critical thinking skills,
+                    practical research abilities, effective communication
+                    skills, and the ability to work collaboratively in teams.
                   </p>
                 </li>
                 <li className={styles.timelineEvent}>
@@ -243,11 +244,11 @@ function About() {
                     </span>
                   </div>
                   <p>
-                    From my Specialist's degree at the University Mediterranean
-                    in Montenegro, Podgorica, I gained specialized knowledge in
-                    my field of study, advanced analytical skills, practical
-                    research expertise, and the ability to apply specialized
-                    knowledge in real-world scenarios.
+                    From my Specialist&apos;s degree at the University
+                    Mediterranean in Montenegro, Podgorica, I gained specialized
+                    knowledge in my field of study, advanced analytical skills,
+                    practical research expertise, and the ability to apply
+                    specialized knowledge in real-world scenarios.
                   </p>
                 </li>
                 <li className={styles.timelineEvent}>
@@ -423,11 +424,11 @@ function About() {
                 </b>
 
                 <p className="mb-0 fs-5 ibm-plex-serif-regular">
-                  I'm a frontend developer, specializing in creating intuitive
-                  user interfaces and enhancing user experiences. I've
-                  collaborated on projects that range from startups to large
-                  corporations, focusing on delivering impactful designs and
-                  functionalities. My interest in frontend development began
+                  I&apos;m a frontend developer, specializing in creating
+                  intuitive user interfaces and enhancing user experiences.
+                  I&apos;ve collaborated on projects that range from startups to
+                  large corporations, focusing on delivering impactful designs
+                  and functionalities. My interest in frontend development began
                   early, sparked by a fascination with interactive technologies.
                   Outside of work, I enjoy writing, photography, pottery,
                   swimming, and designing — especially selecting designs before

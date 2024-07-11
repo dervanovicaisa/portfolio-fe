@@ -11,7 +11,7 @@ function IntroSection() {
           <Image
             src={PeopleImage.src}
             className="w-100 text-end"
-            alt="girl with 'i am fine day' quote"
+            alt="girl with quote"
             layout="responsive"
             width={500}
             height={300}
@@ -28,7 +28,7 @@ function IntroSection() {
                 "ibm-plex-serif-bold text-lg-start text-sm-center fs-1"
               }
             >
-              I'am a front-end developer with a specialization in software
+              I&apos;am a front-end developer with a specialization in software
               engineering.
             </p>
             <br />

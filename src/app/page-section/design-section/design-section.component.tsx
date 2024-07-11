@@ -132,8 +132,8 @@ function DesignSection() {
       </div>
       <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 m-auto">
         <p className="ibm-plex-serif-light pb-5 pt-3">
-          There are many sketch up designs that I won't showcase here, but if
-          you're interested in my amateur work with it, feel free to{" "}
+          There are many sketch up designs that I won&apos;t showcase here, but
+          if you&apos;re interested in my amateur work with it, feel free to{" "}
           <a
             href="mailito:dervanovicaisa@gmail.com"
             className="text-indigo text-decoration-underline"

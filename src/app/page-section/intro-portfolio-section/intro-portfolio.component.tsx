@@ -23,7 +23,7 @@ function IntroPortfolio() {
         <div className="py-4 lh-2">
           <b className="ibm-plex-serif-regular d-block fs-2">Recent projects</b>
           <p className="ibm-plex-serif-light">
-            Here are quick highlights of what I've been up to lately:
+            Here are quick highlights of what I&apos;ve been up to lately:
           </p>
         </div>
         <div className={"row " + styles.boxGrid}>
