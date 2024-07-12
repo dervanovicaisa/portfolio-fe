@@ -21,7 +21,7 @@ function About() {
             </p>
           </div>
           <div>
-            <Link legacyBehavior href="/CV.pdf" passHref>
+            <Link legacyBehavior href="./CV.pdf" passHref>
               <a
                 className="btn btn-bg-primary-subtle text-dark ibm-plex-serif-medium p-lg-3 p-md-3 p-sm-2"
                 role="button"
