@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = ({ showBlackHole, setShowBlackHole }) => {
             : "navbar navbar-expand-lg bg-white p-lg-4 p-sm-2"
         }
       >
-        <div className="container-fluid">
+        <div className="container-fluid align-items-center">
           <a className="navbar-brand ibm-plex-serif-bold fs-2" href="/">
             Portfolio
           </a>
@@ -29,7 +29,7 @@ const Header: React.FC<HeaderProps> = ({ showBlackHole, setShowBlackHole }) => {
             className="justify-content-end position-relative z-3"
             id="navbarText"
           >
-            <div className="form-check form-switch">
+            <div className="form-check d-flex align-items-center justify-content-center form-switch">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -41,8 +41,8 @@ const Header: React.FC<HeaderProps> = ({ showBlackHole, setShowBlackHole }) => {
               <label
                 className={
                   showBlackHole
-                    ? "form-check-label text-light"
-                    : "form-check-label text-muted"
+                    ? "form-check-label text-light mx-1"
+                    : "form-check-label text-muted mx-1"
                 }
                 htmlFor="flexSwitchCheckDefault"
               >

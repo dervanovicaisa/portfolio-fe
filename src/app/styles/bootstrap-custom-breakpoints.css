@@ -4,7 +4,25 @@
   only screen and (min-device-pixel-ratio: 2),
   only screen and (min-resolution: 192dpi) {
   #main {
-    font-size: 1.2rem;
+    font-size: 1rem !important;
+  }
+  p {
+    font-size: small !important;
+  }
+  .form-check {
+    font-size: x-small;
+  }
+  a.btn {
+    font-size: xx-small;
+  }
+  footer .p {
+    font-size: xx-small !important;
+  }
+  ul li {
+    font-size: small !important;
+  }
+  span.badge {
+    font-size: xx-small !important;
   }
 }
 @media (max-width: 426px) {
@@ -916,5 +934,17 @@
   }
   .w-sm-50 {
     width: 50% !important;
+  }
+  .fs-4 {
+    font-size: large !important;
+  }
+  .fs-2 {
+    font-size: medium !important;
+  }
+  .fs-5 {
+    font-size: small !important;
+  }
+  .fs-1 {
+    font-size: x-large !important;
   }
 }

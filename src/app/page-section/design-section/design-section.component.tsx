@@ -22,7 +22,7 @@ function DesignSection() {
         </b>
       </div>
       <div className="col col-12">
-        <div className="row flex-column gap-5">
+        <div className="row flex-column gap-lg-5 gap-md-5 gap-sm-2">
           <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 m-auto">
             <div className="row justify-content-between flex-lg-row flex-md-column flex-sm-column flex-xs-column">
               <div className="card-box col col-lg-6 col-md-12 col-sm-12">
@@ -38,10 +38,10 @@ function DesignSection() {
                 </div>
               </div>
               <div className="col col-lg-6 col-md-12 col-sm-12 text-justify d-flex flex-column justify-content-space-evenly px-3">
-                <b className="ibm-plex-serif-regular d-block fs-2 py-sm-3">
+                <b className="ibm-plex-serif-regular d-block fs-2 py-sm-2">
                   Business cards
                 </b>
-                <small className="text-muted text-light ibm-plex-serif-light">
+                <small className="text-muted text-light ibm-plex-serif-light pb-sm-2">
                   Designed in 2023
                 </small>
                 <p
@@ -60,10 +60,10 @@ function DesignSection() {
           <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 m-auto">
             <div className="row flex-lg-row flex-md-column-reverse flex-sm-column-reverse flex-xs-column-reverse justify-content-between">
               <div className="col col-lg-6 col-md-12 col-sm-12 text-justify d-flex flex-column justify-content-space-evenly px-3">
-                <b className="ibm-plex-serif-regular d-block fs-2 py-sm-3">
+                <b className="ibm-plex-serif-regular d-block fs-2 py-sm-2">
                   Flyer
                 </b>
-                <small className="text-muted text-light ibm-plex-serif-light">
+                <small className="text-muted text-light ibm-plex-serif-light pb-sm-2">
                   Designed in 2023
                 </small>
                 <p
@@ -107,10 +107,10 @@ function DesignSection() {
                 </div>
               </div>
               <div className="col col-lg-6 col-md-12 col-sm-12 text-justify d-flex flex-column justify-content-space-evenly px-3">
-                <b className="ibm-plex-serif-regular d-block fs-2 py-sm-3">
+                <b className="ibm-plex-serif-regular d-block fs-2 py-sm-2">
                   Rotation window
                 </b>
-                <small className="text-muted text-light ibm-plex-serif-light">
+                <small className="text-muted text-light ibm-plex-serif-light pb-sm-2">
                   Designed in 2022
                 </small>
                 <p
@@ -131,11 +131,11 @@ function DesignSection() {
         </div>
       </div>
       <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 m-auto">
-        <p className="ibm-plex-serif-light pb-5 pt-3">
+        <p className="ibm-plex-serif-light pb-lg-5 pb-md-5 pb-sm-0 mb-sm-0 pt-lg-3 pt-md-3 pt-sm-1">
           There are many sketch up designs that I won&apos;t showcase here, but
           if you&apos;re interested in my amateur work with it, feel free to{" "}
           <a
-            href="mailito:dervanovicaisa@gmail.com"
+            href="mailto:dervanovicaisa@gmail.com"
             className="text-indigo text-decoration-underline"
           >
             contact me

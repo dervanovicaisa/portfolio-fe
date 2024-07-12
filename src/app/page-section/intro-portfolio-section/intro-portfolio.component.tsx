@@ -20,7 +20,7 @@ function IntroPortfolio() {
         </p>
       </div>
       <div>
-        <div className="py-4 lh-2">
+        <div className="py-4 pt-sm-0 lh-2">
           <b className="ibm-plex-serif-regular d-block fs-2">Recent projects</b>
           <p className="ibm-plex-serif-light">
             Here are quick highlights of what I&apos;ve been up to lately:
@@ -104,7 +104,7 @@ function IntroPortfolio() {
       <div className="text-end">
         <a
           className={
-            "btn btn-outline-light p-3 text-primary-subtle " +
+            "btn btn-outline-light p-lg-3 p-md-3 p-sm-2 text-primary-subtle " +
             styles.btnViewFull
           }
           href="/portfolio"

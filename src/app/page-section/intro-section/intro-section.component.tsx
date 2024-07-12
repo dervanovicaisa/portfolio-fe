@@ -26,7 +26,7 @@ function IntroSection() {
           >
             <p
               className={
-                "ibm-plex-serif-bold text-lg-start text-sm-center mb-md-0 mb-sm-0 fs-1"
+                "ibm-plex-serif-bold text-lg-start text-sm-center mb-md-0 mb-sm-0 fs-1 pt-sm-3"
               }
             >
               I&apos;am a front-end developer with a specialization in software
@@ -46,7 +46,7 @@ function IntroSection() {
               perfectly executed piece of art.
             </p>
             <br />
-            <div className={"d-flex fs-5 "}>
+            <div className={"d-flex align-items-center fs-5 "}>
               <a
                 href="https://www.patreon.com/etherealechoes/shop"
                 className="text-decoration-underline text-indigo"

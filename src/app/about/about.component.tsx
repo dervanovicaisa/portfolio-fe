@@ -7,12 +7,12 @@ function About() {
   return (
     <div className={styles.aboutBgImage + " text-dark"}>
       <div className={"m-auto row " + styles.bgAboutInner}>
-        <div className="m-auto col-lg-6 col-md-10 col-sm-11 col-xs-11 py-4">
+        <div className="m-auto col-lg-6 col-md-10 col-sm-11 col-xs-11 py-4 d-flex flex-column gap-lg-5 gap-md-5 gap-sm-3">
           <div>
             <p className="ibm-plex-serif-bold fs-1">
               Software Engineer born in Montenegro, Podgorica
             </p>
-            <p className="ibm-plex-serif-regular fs-5">
+            <p className="ibm-plex-serif-regular fs-5 mb-0">
               I grew up fixing technological issues for others on phones and
               laptops, from simple matters to more complex ones, all while being
               a fan of games and science fiction. There has always been a
@@ -20,11 +20,10 @@ function About() {
               am.
             </p>
           </div>
-          <br />
           <div>
             <Link legacyBehavior href="/CV.pdf" passHref>
               <a
-                className="btn btn-bg-primary-subtle text-dark ibm-plex-serif-medium p-3"
+                className="btn btn-bg-primary-subtle text-dark ibm-plex-serif-medium p-lg-3 p-md-3 p-sm-2"
                 role="button"
                 download
                 target="_blank"
@@ -33,15 +32,10 @@ function About() {
               </a>
             </Link>
           </div>
-          <br />
-          <br />
-          <br />
           <div>
             <p className="ibm-plex-serif-bold fs-1">
               My journey has only just begun, but it&apos;s already fascinating
             </p>
-            <br />
-            <br />
             <div className="w-75 m-auto">
               <ul className="list-unstyled">
                 <li className={styles.timelineEvent}>
@@ -415,11 +409,11 @@ function About() {
         <div className="col col-12 py-4">
           <div
             id={styles.biography}
-            className="row py-2  px-lg-5 px-md-4 px-sm-3 px-xs-2 bg-secondary text-white justify-content-center"
+            className="row py-2 px-lg-5 px-md-4 px-sm-0 p bg-secondary text-white justify-content-center"
           >
-            <div className="col col-lg-7 col-md-10 col-sm-11 p-lg-5 p-md-4 p-sm-3 p-xs-2 text-justify">
+            <div className="col col-lg-7 col-md-10 col-sm-11 p-lg-5 p-md-4 p-sm-3 p-xs-2 text-lg-justify text-md-justify">
               <div className="lh-2">
-                <b className="ibm-plex-serif-bold d-block fs-1 pb-3">
+                <b className="ibm-plex-serif-bold d-block fs-1 pb-lg-3 pb-md-3 pb-sm-1">
                   Biography
                 </b>
 
@@ -447,8 +441,8 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="col col-12 pt-3 pb-5">
-          <div className="mx-lg-4 mx-md-3 mx-sm-3 mx-xs-2">
+        <div className="col col-12 pt-lg-3 pt-md-3 pt-sm-1 pb-lg-5 pb-md-5 pb-sm-2">
+          <div className="mx-lg-4 mx-md-3 mx-sm-0">
             <p className="fs-1">Gallery</p>
             <div className="row py-2 align-items-center justify-content-around">
               <div className="col">
