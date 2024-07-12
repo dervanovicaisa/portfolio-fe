@@ -1,16 +1,12 @@
+import Home from "@/app/page";
 import styles from "./black-hole.module.css";
-import Footer from "../footer/footer";
-interface MainProps {
-  children: React.ReactNode;
-}
-const BlackHole: React.FC<MainProps> = ({ children }) => {
+
+const BlackHole = () => {
   return (
     <div className={styles.blackHole}>
-      {" "}
       <div className={styles.bodyAbsorb}>
         <div>
-          <div>{children}</div>
-          <Footer />
+          <Home />
         </div>
       </div>
     </div>
