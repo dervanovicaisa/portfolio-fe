@@ -47,14 +47,14 @@ function IntroSection() {
             </p>
             <br />
             <div className={"d-flex align-items-center fs-5 "}>
-              <a
+              {/* <a
                 href="https://www.patreon.com/etherealechoes/shop"
                 className="text-decoration-underline text-indigo"
                 target="_blank"
               >
                 Buy Me a Coffee
               </a>
-              <i className="bi bi-dot"></i>
+              <i className="bi bi-dot"></i> */}
               <a
                 href="/about"
                 className="text-decoration-underline text-indigo"

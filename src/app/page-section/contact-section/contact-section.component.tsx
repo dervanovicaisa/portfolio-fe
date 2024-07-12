@@ -11,14 +11,15 @@ function ContactSection() {
               <li>Amateur photographer</li>
               <li>Amateur potter</li>
               <li>
-                Filmophile; I{" "}
+                Filmophile
+                {/*; I{" "}
                 <a
                   href="https://ehereal-echoes.blogspot.com/"
                   className="text-primary-subtle text-decoration-underline"
                 >
                   write
                 </a>{" "}
-                about movies and tv shows that have made impression on me
+                about movies and tv shows that have made impression on me */}
               </li>
             </ul>
           </div>
