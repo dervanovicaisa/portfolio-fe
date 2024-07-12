@@ -1,5 +1,5 @@
+/* global page css */
 .card-box {
-  /* width: 49%; */
   padding: 0px 10px;
 }
 .card-box .card {
@@ -37,47 +37,34 @@
   background: var(--secondary-glow);
 }
 
-/* animation black-hole */
+/* galaxy bg */
 
-.black-hole {
-  width: 100px;
-  height: 100px;
-  background: radial-gradient(circle, #000, #111);
-  border-radius: 50%;
-  position: relative;
+.galaxy {
   overflow: hidden;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
-}
-
-.black-hole::before,
-.black-hole::after {
-  content: "";
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
-  width: 200%;
-  height: 200%;
+  height: 1px;
+  width: 1px;
+  background-color: #fff;
   border-radius: 50%;
-  transform: translate(-50%, -50%);
-  animation: swirl 5s infinite linear;
-  opacity: 0.7;
+  box-shadow: -24vw -44vh 2px 2px #fff, 38vw -4vh 0px 0px #fff,
+    -20vw -48vh 1px 2px #fff, -39vw 38vh 3px 1px #fff, -42vw -11vh 0px 3px #fff,
+    12vw 15vh 3px 3px #fff, 42vw 6vh 3px 2px #fff, -8vw 9vh 0px 2px #fff,
+    34vw -38vh 1px 0px #fff, -17vw 45vh 3px 1px #fff, 22vw -36vh 3px 2px #fff,
+    -42vw 1vh 1px 0px #fff;
+  animation: zoom 10s alternate infinite;
 }
-
-.black-hole::before {
-  background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.5));
-  animation-duration: 4s;
-}
-
-.black-hole::after {
-  background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.7));
-  animation-duration: 6s;
-}
-
-@keyframes swirl {
+@keyframes zoom {
   0% {
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: scale(1);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(360deg);
+    transform: scale(1.5);
   }
+}
+.bg-galaxy-set-pos {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }

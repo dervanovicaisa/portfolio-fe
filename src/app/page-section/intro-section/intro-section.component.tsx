@@ -4,9 +4,9 @@ import Image from "next/image";
 function IntroSection() {
   return (
     <section>
-      <div className="row flex-lg-row flex-md-row flex-sm-column align-items-center justify-content-center px-lg-4 px-md-4 px-sm-4">
+      <div className="row flex-lg-row flex-md-row flex-sm-column align-items-center justify-content-center px-lg-4 px-md-4 px-sm-0">
         <div
-          className={`col col-lg-5 col-md-3 col-sm-3 ${styles.portfolioImage} text-end text-md-center text-sm-center`}
+          className={`col col-lg-5 col-md-3 col-sm-10 ${styles.portfolioImage} text-end text-md-center text-sm-center`}
         >
           <Image
             src={PeopleImage.src}

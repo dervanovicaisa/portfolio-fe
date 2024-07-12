@@ -7,7 +7,7 @@
     font-size: 1.2rem;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .col-sm {
     flex: 1 0 0%;
   }
@@ -177,7 +177,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .dropdown-menu-sm-start {
     --bs-position: start;
   }
@@ -194,7 +194,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -242,7 +242,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .card-group {
     display: flex;
     flex-flow: row wrap;
@@ -281,7 +281,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .list-group-horizontal-sm {
     flex-direction: row;
   }
@@ -306,7 +306,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .modal {
     --bs-modal-margin: 1.75rem;
     --bs-modal-box-shadow: var(--bs-box-shadow);
@@ -321,7 +321,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .offcanvas-sm {
     --bs-offcanvas-height: auto;
     --bs-offcanvas-border-width: 0;
@@ -339,7 +339,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .sticky-sm-top {
     position: -webkit-sticky;
     position: sticky;
@@ -354,7 +354,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .float-sm-start {
     float: left !important;
   }

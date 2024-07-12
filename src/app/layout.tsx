@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "./layout/header/header";
 import Footer from "./layout/footer/footer";
-
+import Header from "./layout/header/header";
+import BlackHole from "./layout/black-hole/black-hole.component";
+import Main from "./main/main.component";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -25,9 +26,7 @@ export default function RootLayout({
         ></meta>
       </head>
       <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+        <Main children={children} />
       </body>
     </html>
   );
