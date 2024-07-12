@@ -3,7 +3,7 @@ import styles from "./intro-portfolio.module.css";
 import Image from "next/image";
 function IntroPortfolio() {
   return (
-    <section className="px-5 pb-5 m-auto bg-black text-light fs-5">
+    <section className="px-5 px-sm-4 pb-5 m-auto bg-black text-light fs-5">
       <div className="pt-5 pb-3 lh-2">
         <b className="ibm-plex-serif-regular fs-1 d-block">
           I bring designs to life through code
@@ -26,7 +26,11 @@ function IntroPortfolio() {
             Here are quick highlights of what I&apos;ve been up to lately:
           </p>
         </div>
-        <div className={"row " + styles.boxGrid}>
+        <div
+          className={
+            "row flex-lg-row flex-md-row flex-sm-column " + styles.boxGrid
+          }
+        >
           <div className="col col-lg-6 col-md-12 col-sm-12 col-xs-12 card-box">
             <div className="card">
               <Image

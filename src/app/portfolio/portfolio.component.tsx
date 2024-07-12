@@ -10,7 +10,7 @@ import Image from "next/image";
 function Portfolio() {
   return (
     <div className="text-black row justify-content-center bg-glow">
-      <div className="col pt-4 col-lg-7 col-md-9 col-sm-11">
+      <div className="col pt-4 col-lg-7 col-md-9 col-sm-11 px-lg-0 px-md-0 px-sm-5">
         <div>
           <p className="ibm-plex-serif-regular fs-1">
             Let me help you bring your vision to life
@@ -28,7 +28,11 @@ function Portfolio() {
           <p className="ibm-plex-serif-light fs-5 pb-2">
             Here are quick highlights of what I&apos;ve been up to lately:
           </p>
-          <div className={"row " + styles.boxGrid}>
+          <div
+            className={
+              "row flex-lg-row flex-md-row flex-sm-column " + styles.boxGrid
+            }
+          >
             <div className="card-box col col-lg-6 col-md-12 col-sm-12">
               <div className="card">
                 <Image
@@ -112,7 +116,12 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className={"row " + styles.boxGrid}>
+          <div
+            className={
+              "row flex-row flex-lg-row flex-md-row flex-sm-column " +
+              styles.boxGrid
+            }
+          >
             <div className="card-box col col-lg-6 col-md-12 col-sm-12">
               <div className="card">
                 <Image

@@ -36,3 +36,48 @@
 .bg-glow {
   background: var(--secondary-glow);
 }
+
+/* animation black-hole */
+
+.black-hole {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, #000, #111);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+.black-hole::before,
+.black-hole::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: swirl 5s infinite linear;
+  opacity: 0.7;
+}
+
+.black-hole::before {
+  background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.5));
+  animation-duration: 4s;
+}
+
+.black-hole::after {
+  background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.7));
+  animation-duration: 6s;
+}
+
+@keyframes swirl {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

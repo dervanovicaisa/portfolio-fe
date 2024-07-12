@@ -4,13 +4,13 @@ import Image from "next/image";
 function IntroSection() {
   return (
     <section>
-      <div className="row align-items-center justify-content-center px-lg-4 px-md-0 px-sm-0">
+      <div className="row flex-lg-row flex-md-row flex-sm-column align-items-center justify-content-center px-lg-4 px-md-4 px-sm-4">
         <div
-          className={`col col-lg-5 col-md-3 col-sm-3 col-xs-3 ${styles.portfolioImage} text-end`}
+          className={`col col-lg-5 col-md-3 col-sm-3 ${styles.portfolioImage} text-end text-md-center text-sm-center`}
         >
           <Image
             src={PeopleImage.src}
-            className="w-100 text-end"
+            className="w-100 w-sm-50 text-end text-md-center text-sm-center"
             alt="girl with quote"
             layout="responsive"
             width={500}
@@ -18,7 +18,7 @@ function IntroSection() {
             priority
           />
         </div>
-        <div className="col col-lg-6 col-md-10 col-sm-10 col-xs-10 pb-3 pb-sm-5 px-md-0 px-sm-0 text-md-justify text-sm-justify">
+        <div className="col col-lg-6 col-md-10 col-sm-10 col-xs-10 pb-3 pb-sm-5 text-md-justify text-sm-justify">
           <div
             className={
               "ibm-plex-serif-regular m-auto fs-4 " + styles.textAnimation
@@ -26,7 +26,7 @@ function IntroSection() {
           >
             <p
               className={
-                "ibm-plex-serif-bold text-lg-start text-sm-center fs-1"
+                "ibm-plex-serif-bold text-lg-start text-sm-center mb-md-0 mb-sm-0 fs-1"
               }
             >
               I&apos;am a front-end developer with a specialization in software
@@ -48,8 +48,9 @@ function IntroSection() {
             <br />
             <div className={"d-flex fs-5 "}>
               <a
-                href="https://buymeacoffee.com/aisadf"
+                href="https://www.patreon.com/etherealechoes/shop"
                 className="text-decoration-underline text-indigo"
+                target="_blank"
               >
                 Buy Me a Coffee
               </a>
@@ -58,7 +59,7 @@ function IntroSection() {
                 href="/about"
                 className="text-decoration-underline text-indigo"
               >
-                Meet me
+                Get to know me
               </a>
             </div>
           </div>

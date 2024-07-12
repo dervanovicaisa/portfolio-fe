@@ -5,11 +5,13 @@ import DesignSection from "./page-section/design-section/design-section.componen
 import ContactSection from "./page-section/contact-section/contact-section.component";
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <IntroSection />
-      <IntroPortfolio />
-      <DesignSection />
-      <ContactSection />
+    <main id="main" className={styles.main}>
+      <div>
+        <IntroSection />
+        <IntroPortfolio />
+        <DesignSection />
+        <ContactSection />
+      </div>
     </main>
   );
 }

@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="row bg-white text-dark ibm-plex-serif-regular py-3 px-5">
+    <footer className="row bg-white text-dark ibm-plex-serif-regular py-3 px-5 px-sm-3">
       <div className="col col-lg-6 col-md-8 m-auto lh-2">
         <p className="pb-0 mb-0 text-center text-monospace">
           Website designed and built with &hearts; by <b>Aisa Dervanovic. </b>

@@ -3,7 +3,7 @@ import styles from "./design-section.module.css";
 import Image from "next/image";
 function DesignSection() {
   return (
-    <section className="row gap-4 px-5 flex-column py-5 m-auto bg-light text-dark fs-5">
+    <section className="row gap-4 px-5 px-sm-3 flex-column py-5 m-auto bg-light text-dark fs-5">
       <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 col-xs-11 m-auto">
         <b className="ibm-plex-serif-regular d-block fs-2">
           I also make designs.
@@ -24,7 +24,7 @@ function DesignSection() {
       <div className="col col-12">
         <div className="row flex-column gap-5">
           <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 m-auto">
-            <div className="row justify-content-between">
+            <div className="row justify-content-between flex-lg-row flex-md-column flex-sm-column flex-xs-column">
               <div className="card-box col col-lg-6 col-md-12 col-sm-12">
                 <div className="card">
                   <Image
@@ -93,7 +93,7 @@ function DesignSection() {
             </div>
           </div>
           <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 m-auto">
-            <div className="row justify-content-between">
+            <div className="row justify-content-between flex-lg-row flex-md-column flex-sm-column flex-xs-column">
               <div className="card-box col col-lg-6 col-md-12 col-sm-12">
                 <div className="card">
                   <Image
