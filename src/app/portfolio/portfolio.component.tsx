@@ -55,9 +55,10 @@ function Portfolio() {
                     Harizma is a hair salon that offers a wide range of hair and
                     cosmetic services. In addition to these services, they have
                     partnerships with REVLON and Alfaton to sell their products.
-                    Established in 2007 and based in Podgorica, Montenegro,
+                    Established in 2015 and based in Podgorica, Montenegro,
                     Harizma is led by CEO and senior hairdresser Mirsada
-                    Hadzajlic. Known for her highly satisfied customers, Mirsada
+                    Hadzajlic who boasts over 20 years of experience in the
+                    industry. Known for her highly satisfied customers, Mirsada
                     has asked me to create a website that is both attractive and
                     user-friendly. Credits for inspiring me with this design go
                     to{" "}
