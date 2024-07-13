@@ -1,7 +1,7 @@
 function ContactSection() {
   return (
     <section className="p-lg-5 p-md-5 p-sm-3 m-auto bg-black text-light fs-5">
-      <div className="row p-lg-5 p-md-5 p-sm-3">
+      <div className="row p-lg-5 p-md-5 px-sm-1 py-sm-3">
         <div className="col col-lg-6 col-md-12 col-sm-12">
           <div className="p-lg-5 p-md-5 p-sm-3 bg-secondary">
             <b className="ibm-plex-serif-regular d-block fs-2">
@@ -25,7 +25,7 @@ function ContactSection() {
           </div>
         </div>
         <div className="col col-lg-6 col-md-12 col-sm-12">
-          <div className="p-lg-4 p-md-4 p-sm-2">
+          <div className="p-lg-4 p-md-4 px-sm-3 py-sm-4">
             <b className="ibm-plex-serif-regular d-block fs-2 pb-2">
               Want to talk?
             </b>

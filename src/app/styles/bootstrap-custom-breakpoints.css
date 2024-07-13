@@ -13,7 +13,7 @@
     font-size: x-small;
   }
   a.btn {
-    font-size: xx-small;
+    font-size: x-small;
   }
   footer .p {
     font-size: xx-small !important;
@@ -938,9 +938,9 @@
   .fs-4 {
     font-size: large !important;
   }
-  .fs-2 {
+  /* .fs-2 {
     font-size: medium !important;
-  }
+  } */
   .fs-5 {
     font-size: small !important;
   }

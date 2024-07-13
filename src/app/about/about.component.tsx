@@ -36,7 +36,7 @@ function About() {
             <p className="ibm-plex-serif-bold fs-1">
               My journey has only just begun, but it&apos;s already fascinating
             </p>
-            <div className="w-75 m-auto">
+            <div className="col-lg-9 col-md-9 col-sm-12 pt-lg-3 pt-md-3 pt-sm-0 m-lg-auto m-md-auto ps-lg-0 ps-md-0 ps-sm-5">
               <ul className="list-unstyled">
                 <li className={styles.timelineEvent}>
                   <small className={"pb-2 pt-1 " + styles.timelineDate}>
@@ -441,7 +441,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="col col-12 pt-lg-3 pt-md-3 pt-sm-1 pb-lg-5 pb-md-5 pb-sm-2">
+        <div className="col col-12 pt-lg-3 pt-md-3 pt-sm-1 pb-lg-5 pb-md-5 pb-sm-2 d-lg-block d-md-block d-sm-none">
           <div className="mx-lg-4 mx-md-3 mx-sm-0">
             <p className="fs-1">Gallery</p>
             <div className="row py-2 align-items-center justify-content-around">

@@ -18,7 +18,7 @@ function IntroSection() {
             priority
           />
         </div>
-        <div className="col col-lg-6 col-md-10 col-sm-10 col-xs-10 pb-3 pb-sm-5 text-md-justify text-sm-justify">
+        <div className="col col-lg-6 col-md-10 col-sm-10 col-xs-10 pb-lg-3 pb-md-3 pb-sm-5 text-md-justify text-sm-justify">
           <div
             className={
               "ibm-plex-serif-regular m-auto fs-4 " + styles.textAnimation
@@ -40,7 +40,7 @@ function IntroSection() {
               light-specific colors , crafting digital landscapes that captivate
               and soothe users.
             </p>
-            <p className={"text-justify "}>
+            <p className={"text-justify mb-sm-0"}>
               My goal is to make each interface a masterpiece, functional and
               bug-free, providing a seamless user experience akin to enjoying a
               perfectly executed piece of art.
