@@ -152,8 +152,8 @@ function Portfolio() {
                     of individuals who work for them, enabling them to showcase
                     products on their own site effortlessly. Users have easy
                     access to comprehensive product lists and can click on a
-                    product to redirect to the organization's official site with
-                    their unique identification code.
+                    product to redirect to the organization&apos;s official site
+                    with their unique identification code.
                   </p>
                 </div>
               </div>
