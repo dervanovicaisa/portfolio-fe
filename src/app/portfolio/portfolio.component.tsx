@@ -148,16 +148,12 @@ function Portfolio() {
                     Developed in 2023
                   </small>
                   <p className="card-text ibm-plex-serif-light text-black">
-                    {" "}
-                    Forever Living Products is well-known for their Aloe Vera
-                    products. The requested website features include: displaying
-                    a comprehensive list of products; allowing users to add
-                    products to a shopping cart; enabling users to send their
-                    cart contents directly to an email address. All actions
-                    should be possible without requiring user registration. The
-                    website&apos;s primary purpose is to list all products and
-                    facilitate communication with customers, allowing them to
-                    create and send a product list to their employer via email.
+                    The Forever Living Products website is tailored to the needs
+                    of individuals who work for them, enabling them to showcase
+                    products on their own site effortlessly. Users have easy
+                    access to comprehensive product lists and can click on a
+                    product to redirect to the organization's official site with
+                    their unique identification code.
                   </p>
                 </div>
               </div>
