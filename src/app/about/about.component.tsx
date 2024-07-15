@@ -7,7 +7,7 @@ function About() {
   return (
     <div className={styles.aboutBgImage + " text-dark"}>
       <div className={"m-auto row " + styles.bgAboutInner}>
-        <div className="m-auto col-lg-6 col-md-10 col-sm-11 col-xs-11 py-4 d-flex flex-column gap-lg-5 gap-md-5 gap-sm-3">
+        <div className="m-auto col-xl-6 col-lg-8 col-md-10 col-sm-11 col-xs-11 py-4 d-flex flex-column gap-lg-5 gap-md-5 gap-sm-3">
           <div>
             <p className="ibm-plex-serif-bold fs-1">
               Software Engineer born in Montenegro, Podgorica
@@ -409,9 +409,9 @@ function About() {
         <div className="col col-12 py-4">
           <div
             id={styles.biography}
-            className="row py-2 px-lg-5 px-md-4 px-sm-0 p bg-secondary text-white justify-content-center"
+            className="row py-2  px-lg-5 px-md-4 px-sm-0 p bg-secondary text-white justify-content-center"
           >
-            <div className="col col-lg-7 col-md-10 col-sm-11 p-lg-5 p-md-4 p-sm-3 p-xs-2 text-lg-justify text-md-justify">
+            <div className="col col-xl-7 col-lg-9 col-md-10 col-sm-11 p-lg-5 p-md-4 p-sm-3 p-xs-2 text-lg-justify text-md-justify">
               <div className="lh-2">
                 <b className="ibm-plex-serif-bold d-block fs-1 pb-lg-3 pb-md-3 pb-sm-1">
                   Biography

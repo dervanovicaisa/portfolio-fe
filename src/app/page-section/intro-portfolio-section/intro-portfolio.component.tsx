@@ -3,7 +3,7 @@ import styles from "./intro-portfolio.module.css";
 import Image from "next/image";
 function IntroPortfolio() {
   return (
-    <section className="px-5 px-sm-4 pb-5 m-auto bg-black text-light fs-5">
+    <section className="px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-4 pb-5 m-auto bg-black text-light fs-5">
       <div className="pt-5 pb-3 lh-2">
         <b className="ibm-plex-serif-regular fs-1 d-block">
           I bring designs to life through code

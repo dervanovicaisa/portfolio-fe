@@ -10,7 +10,7 @@ import Image from "next/image";
 function Portfolio() {
   return (
     <div className="text-black row justify-content-center bg-glow">
-      <div className="col pt-lg-4 pt-md-4 pt-sm-2 col-lg-7 col-md-9 col-sm-11 px-lg-0 px-md-0 px-sm-3">
+      <div className="col pt-lg-4 pt-md-4 pt-sm-2 col-xl-7 col-lg-9 col-md-9 col-sm-11 px-lg-0 px-md-0 px-sm-3">
         <div>
           <p className="ibm-plex-serif-regular fs-1">
             Let me help you bring your vision to life

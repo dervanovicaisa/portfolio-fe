@@ -4,7 +4,7 @@ import Image from "next/image";
 function DesignSection() {
   return (
     <section className="row gap-4 px-5 px-sm-3 flex-column py-5 m-auto bg-light text-dark fs-5">
-      <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 col-xs-11 m-auto">
+      <div className="col col-xl-6 col-lg-8 col-md-8 col-sm-12 col-xs-12 col-xs-11 m-auto">
         <b className="ibm-plex-serif-regular d-block fs-2">
           I also make designs.
         </b>
@@ -16,16 +16,16 @@ function DesignSection() {
           still an amateur, but I aspire to become a professional one day.
         </p>
       </div>
-      <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 m-auto">
+      <div className="col col-xl-6 col-lg-8 col-md-8 col-sm-12 col-xs-12 m-auto">
         <b className="ibm-plex-serif-regular d-block fs-2">
           Most recent designs
         </b>
       </div>
       <div className="col col-12">
         <div className="row flex-column gap-lg-5 gap-md-5 gap-sm-2">
-          <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 m-auto">
+          <div className="col col-xl-6  col-lg-8 col-md-8 col-sm-12 col-xs-12 m-auto">
             <div className="row justify-content-between flex-lg-row flex-md-column flex-sm-column flex-xs-column">
-              <div className="card-box col col-lg-6 col-md-12 col-sm-12">
+              <div className="card-box col col-xl-6  col-lg-12 col-md-12 col-sm-12">
                 <div className="card">
                   <Image
                     src={CardsImage.src}
@@ -37,7 +37,7 @@ function DesignSection() {
                   />
                 </div>
               </div>
-              <div className="col col-lg-6 col-md-12 col-sm-12 text-justify d-flex flex-column justify-content-space-evenly px-3">
+              <div className="col col-xl-6  col-lg-12 col-sm-12 text-justify d-flex flex-column justify-content-space-evenly px-3">
                 <b className="ibm-plex-serif-regular d-block fs-2 py-sm-2">
                   Business cards
                 </b>
@@ -57,9 +57,9 @@ function DesignSection() {
               </div>
             </div>
           </div>
-          <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 m-auto">
+          <div className="col col-xl-6  col-lg-8 col-md-8 col-sm-12 col-xs-12 m-auto">
             <div className="row flex-lg-row flex-md-column-reverse flex-sm-column-reverse flex-xs-column-reverse justify-content-between">
-              <div className="col col-lg-6 col-md-12 col-sm-12 text-justify d-flex flex-column justify-content-space-evenly px-3">
+              <div className="col col-xl-6  col-lg-12 col-md-12 col-sm-12 text-justify d-flex flex-column justify-content-space-evenly px-3">
                 <b className="ibm-plex-serif-regular d-block fs-2 py-sm-2">
                   Flyer
                 </b>
@@ -78,7 +78,7 @@ function DesignSection() {
                   their brand.
                 </p>
               </div>
-              <div className="card-box col col-lg-6 col-md-12 col-sm-12">
+              <div className="card-box col col-xl-6 col-lg-12 col-md-12 col-sm-12">
                 <div className="card">
                   <Image
                     src={FlayerImage.src}
@@ -92,9 +92,9 @@ function DesignSection() {
               </div>
             </div>
           </div>
-          <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 m-auto">
+          <div className="col col-xl-6 col-lg-8 col-md-8 col-sm-12 col-xs-12 m-auto">
             <div className="row justify-content-between flex-lg-row flex-md-column flex-sm-column flex-xs-column">
-              <div className="card-box col col-lg-6 col-md-12 col-sm-12">
+              <div className="card-box col col-xl-6  col-lg-12 col-md-12 col-sm-12">
                 <div className="card">
                   <Image
                     src={RotationFormImage.src}
@@ -106,7 +106,7 @@ function DesignSection() {
                   />
                 </div>
               </div>
-              <div className="col col-lg-6 col-md-12 col-sm-12 text-justify d-flex flex-column justify-content-space-evenly px-3">
+              <div className="col col-xl-6  col-lg-12 col-md-12 col-sm-12 text-justify d-flex flex-column justify-content-space-evenly px-3">
                 <b className="ibm-plex-serif-regular d-block fs-2 py-sm-2">
                   Rotation window
                 </b>
@@ -130,7 +130,7 @@ function DesignSection() {
           </div>
         </div>
       </div>
-      <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 m-auto">
+      <div className="col col-xl-6  col-lg-8 col-md-8 col-sm-12 col-xs-12 m-auto">
         <p className="ibm-plex-serif-light pb-lg-5 pb-md-5 pb-sm-0 mb-sm-0 pt-lg-3 pt-md-3 pt-sm-1">
           There are many sketch up designs that I won&apos;t showcase here, but
           if you&apos;re interested in my amateur work with it, feel free to{" "}
