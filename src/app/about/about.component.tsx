@@ -428,7 +428,7 @@ function About() {
                   swimming, and designing — especially selecting designs before
                   diving into coding them.
                 </p>
-                <p className="fs-5 ibm-plex-serif-regular">
+                <p className="fs-5 ibm-plex-serif-regular text-wrap">
                   You can explore my work at{" "}
                   <a
                     href="/"
