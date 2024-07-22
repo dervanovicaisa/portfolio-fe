@@ -111,7 +111,7 @@ function DesignSection() {
                   Rotation window
                 </b>
                 <small className="text-muted text-light ibm-plex-serif-light pb-sm-2">
-                  Designed in 2022
+                  Designed in 2023
                 </small>
                 <p
                   className={
